@@ -13,6 +13,7 @@ _My name is Daniyar, I'm 16. Before I studied programming languages ​​such a
 * _Photoshop, Figma_
 * _Sublime Text, Visual Studio Code, IntelliJ IDEA_
 ### Code Sample
+
 ```html
 <!DOCTYPE html>
 <html lang="ru">
@@ -42,6 +43,7 @@ _My name is Daniyar, I'm 16. Before I studied programming languages ​​such a
 	</body>
 </html>
 ```
+
 ### Education
 * _Specialized gymnasium № 12_
 * _Courses:_
