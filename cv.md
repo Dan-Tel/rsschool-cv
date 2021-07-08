@@ -51,10 +51,10 @@ _My name is Daniyar, I'm 16. Before I studied programming languages ​​such a
 ### Education
 * _Specialized gymnasium № 12_
 * _Courses:_
-    1. _JavaRush_
-    2. _RS School_
+    * _JavaRush_
+    * _RS School_
 
 ### Languages
 1. _English (Intermediate)_
 2. _Russian (Proficient)_
-3. _Kazakh (Proficient)_    
+3. _Kazakh (Proficient)_
