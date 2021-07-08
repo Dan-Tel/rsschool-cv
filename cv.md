@@ -14,33 +14,28 @@ _My name is Daniyar, I'm 16. Before I studied programming languages ​​such a
 * _Sublime Text, Visual Studio Code, IntelliJ IDEA_
 ### Code Sample
 ```html
-<!DOCTYPE html>
-<html lang="ru">
-	<head>
-		<title>Пример кода</title>
-		<meta charset="UTF-8">
-	</head>
-	<body>
-		<header>
-			<img src="/logo.png" alt="logo">
-			<nav>
-				<ul>
-					<li><a href="/main">Главная</a></li>
-					<li><a href="/about">О нас</a></li>
-					<li><a href="/contacts">Контакты</a></li>
-				</ul>
-			</nav>
-		</header>
-
-		<main>
-			<p>Основной контент сайта</p>
-		</main>
-
-		<footer>
-			<p>Дополнительная информация</p>
-		</footer>
-	</body>
-</html>
+<head>
+	<title>Пример кода</title>
+	<meta charset="UTF-8">
+</head>
+<body>
+	<header>
+		<img src="/logo.png" alt="logo">
+		<nav>
+			<ul>
+				<li><a href="/main">Главная</a></li>
+				<li><a href="/about">О нас</a></li>
+				<li><a href="/contacts">Контакты</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<p>Основной контент сайта</p>
+	</main>
+	<footer>
+		<p>Дополнительная информация</p>
+	</footer>
+</body>
 ```
 ### Education
 * _Specialized gymnasium № 12_
