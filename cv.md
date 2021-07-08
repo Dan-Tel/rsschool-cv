@@ -42,3 +42,8 @@ _My name is Daniyar, I'm 16. Before I studied programming languages ​​such a
 	</body>
 </html>
 ```
+### Education
+* _Specialized gymnasium № 12_
+* _Courses:_
+    * _JavaRush_
+    * _RS School_
