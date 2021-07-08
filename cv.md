@@ -47,3 +47,7 @@ _My name is Daniyar, I'm 16. Before I studied programming languages ​​such a
 * _Courses:_
     * _JavaRush_
     * _RS School_
+### Languages
+* _English (Intermediate)_
+* _Russian (Proficient)_
+* _Kazakh (Proficient)_    
