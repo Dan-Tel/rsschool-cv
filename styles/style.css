@@ -56,3 +56,11 @@ body {
     font-weight: bold;
     color: #ffffff;
 }
+
+.icon {
+    position: relative;
+    top: 8px;
+    width: 24px;
+    height: 24px;
+    margin: 5px 5px 0 0;
+}
