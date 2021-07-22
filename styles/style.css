@@ -76,3 +76,10 @@ body {
     color: #ffffff;
     list-style-type: none;
 }
+
+.name {
+    position: absolute;
+    top: 34px;
+    left: 254px;
+    font-weight: bold;
+}
