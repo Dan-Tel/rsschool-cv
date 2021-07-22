@@ -107,3 +107,14 @@ body {
 .about-me-block {
     margin-bottom: 40px;
 }
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 850px;
+    height: 60px;
+    margin: 0 auto;
+    padding: 1em 0;
+    background-color: #5F5F5F;
+}
