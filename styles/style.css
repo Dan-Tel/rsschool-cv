@@ -83,3 +83,12 @@ body {
     left: 254px;
     font-weight: bold;
 }
+
+.information-block {
+    position: absolute;
+    top: 320px;
+    left: 220px;
+    width: 630px;
+    height: 780px;
+    padding: 20px 20px 0 20px;
+}
