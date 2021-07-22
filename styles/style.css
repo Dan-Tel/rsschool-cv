@@ -33,6 +33,8 @@ body {
 }
 
 .yellow-rectangle {
+    display: flex;
+    align-items: center;
     width: 850px;
     height: 60px;
     background-color: #fde387;
@@ -118,7 +120,7 @@ footer {
     height: 60px;
     margin: 0 auto;
     padding: 1em 0;
-    background-color: #5F5F5F;
+    background-color: #5f5f5f;
 }
 
 time {
@@ -173,12 +175,11 @@ pre {
     padding: 25px;
     margin: 0;
     border-radius: 0 0 5px 5px;
-    background-color: #383838;
+    background-color: #585858;
     color: #ffffff;
 }
 
-.js {
-    
+.js {   
     width: 590px;
     padding: 12px;
     margin: 0;
@@ -190,13 +191,25 @@ pre {
 }
 
 #purple {
-    color: #db86c9;
+    color: #ffa0ea;
 }
 
 #orange {
-    color: #f5944c;
+    color: #ffb984;
 }
 
 #blue {
-    color: #8febc8
+    color: #8effd4
+}
+
+.status {
+    background-color: #000000;
+    padding: 6px 21px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+
+}
+
+.language-skills {
+    margin-bottom: 12px;
 }
