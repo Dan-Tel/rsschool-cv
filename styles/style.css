@@ -64,3 +64,10 @@ body {
     height: 24px;
     margin: 5px 5px 0 0;
 }
+
+.without-dot {
+    margin-top: 1em;
+    padding: 0;
+    color: #ffffff;
+    list-style-type: none;
+}
