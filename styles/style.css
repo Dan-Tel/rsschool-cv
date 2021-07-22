@@ -92,6 +92,7 @@ body {
     width: 630px;
     height: 780px;
     padding: 20px 20px 0 20px;
+    font-size: 14px;
 }
 
 .text-heading {
@@ -166,4 +167,36 @@ ul {
 .info-section {
     position: relative;
     bottom: 12px;
+}
+
+pre {
+    padding: 25px;
+    margin: 0;
+    border-radius: 0 0 5px 5px;
+    background-color: #383838;
+    color: #ffffff;
+}
+
+.js {
+    
+    width: 590px;
+    padding: 12px;
+    margin: 0;
+    border-radius: 5px 5px 0 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+#purple {
+    color: #db86c9;
+}
+
+#orange {
+    color: #f5944c;
+}
+
+#blue {
+    color: #8febc8
 }
