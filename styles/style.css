@@ -14,3 +14,45 @@ body {
     font-size: 13px;
     background-color: #ffffff;
 }
+
+.my-photo {
+    width: 220px;
+    height: 260px;
+}
+
+.block {
+    width: 220px;
+    height: 260px;
+    padding: 20px 0 0 20px;
+}
+
+.photo-block {
+    width: 220px;
+    height: 260px;
+    background-color: #c4c4c4;
+}
+
+.yellow-rectangle {
+    width: 850px;
+    height: 60px;
+    background-color: #fde387;
+}
+
+.contact-block {
+    background-color: #9f9f9f;
+}
+
+.skill-block {
+    background-color: #858585;
+}
+
+.language-block {
+    background-color: #6f6f6f;
+}
+
+.block-heading {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+}
