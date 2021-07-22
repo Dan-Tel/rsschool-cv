@@ -65,6 +65,11 @@ body {
     margin: 5px 5px 0 0;
 }
 
+.star-icon {
+    width: 10px;
+    height: 10px;
+}
+
 .without-dot {
     margin-top: 1em;
     padding: 0;
