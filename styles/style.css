@@ -688,3 +688,35 @@ a {
 .logo {
   transform: scale(1.2);
 }
+
+
+
+footer {
+  width: 100%;
+  min-height: 70px;
+  padding: 5px;
+  margin-top: 100px;
+  background-color: var(--sec-bg-color);
+}
+
+footer .container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+footer img {
+  height: 60px;
+}
+
+footer h2 {
+  font-size: 60px;
+  color: #000000;
+}
+
+footer i {
+  font-size: 60px;
+  color: #000000;
+}
