@@ -313,3 +313,149 @@ a {
   right: 0;
   width: 65%;
 }
+
+
+
+.skills {
+  width: 100%;
+  padding: 50px;
+  margin-top: 100px;
+}
+
+.skills h2 {
+  text-align: center;
+}
+
+.skills ul {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.skills li {
+  position: relative;
+  list-style: none;
+  display: inline-block;
+  padding: 15px;
+  background-color: var(--sec-bg-color);
+  border: var(--neumor-border);
+  box-shadow: var(--neumor-shadow);
+  border-radius: 10px;
+}
+
+.skill-circle {
+  position: relative;
+  border-radius: 50%;
+  filter: drop-shadow(6px 6px 6px rgba(0, 0, 0, 0.25)) drop-shadow(-6px -6px 6px rgba(255, 255, 255, 0.5));
+}
+
+.percent {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: var(--medium-text);
+}
+
+.percent span {
+  font-size: var(--small-text);
+}
+
+.skills li h3 {
+  margin-top: 15px;
+  text-align: center;
+  font-size: var(--medium-small-text);
+  padding: 5px 10px;
+  border-radius: 10px;
+  transition: 1s ease-in-out;
+}
+
+.skills li.animate h3 {
+  background-color: var(--third-bg-color);
+  box-shadow: var(--neumor-shadow-inset);
+}
+
+.skills svg {
+  width: 140px;
+  height: 140px;
+}
+
+.skills svg circle {
+  width: 100%;
+  height: 100%;
+  fill: transparent;
+  stroke-width: 20;
+  stroke-linecap: round;
+  stroke-dasharray: 380;
+  stroke-dashoffset: 380;
+  transition: 1.5s ease-in-out;
+}
+
+.tech-skills {
+  margin-bottom: 100px;
+}
+
+.tech-skills li:nth-child(1) circle {
+  stroke: #FFF176;
+}
+
+.tech-skills li:nth-child(2) circle {
+  stroke: #7986CB;
+}
+
+.tech-skills li:nth-child(3) circle {
+  stroke: #AB47BC;
+}
+
+.tech-skills li:nth-child(4) circle {
+  stroke: #FFA726;
+}
+
+.tech-skills li:nth-child(5) circle {
+  stroke: #81D4FA;
+}
+
+.lang-skills li:nth-child(1) circle {
+  stroke: #42A5F5;
+}
+
+.lang-skills li:nth-child(2) circle {
+  stroke: #F44336;
+}
+
+.lang-skills li:nth-child(3) circle {
+  stroke: #1E88E5;
+}
+
+.tech-skills li:nth-child(1).animate circle {
+  stroke-dashoffset: calc(380 - (380 * 40) / 100);
+}
+
+.tech-skills li:nth-child(2).animate circle {
+  stroke-dashoffset: calc(380 - (380 * 60) / 100);
+}
+
+.tech-skills li:nth-child(3).animate circle {
+  stroke-dashoffset: calc(380 - (380 * 30) / 100);
+}
+
+.tech-skills li:nth-child(4).animate circle {
+  stroke-dashoffset: calc(380 - (380 * 75) / 100);
+}
+
+.tech-skills li:nth-child(5).animate circle {
+  stroke-dashoffset: calc(380 - (380 * 75) / 100);
+}
+
+.lang-skills li:nth-child(1).animate circle {
+  stroke-dashoffset: calc(380 - (380 * 50) / 100);
+}
+
+.lang-skills li:nth-child(2).animate circle {
+  stroke-dashoffset: calc(380 - (380 * 75) / 100);
+}
+
+.lang-skills li:nth-child(3).animate circle {
+  stroke-dashoffset: calc(380 - (380 * 80) / 100);
+}
