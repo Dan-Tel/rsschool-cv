@@ -105,3 +105,71 @@ body {
   z-index: -1;
   animation: blueBlockAnimation 0.5s ease-in-out 0.2s;
 }
+
+
+
+.about {
+  position: relative;
+  width: 100%;
+}
+
+.about .container {
+  height: 100%;
+}
+
+.about-blue-block {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 50px;
+  width: 45%;
+  min-height: 45%;
+  box-shadow: 0 6px 16px -8px rgba(0, 0, 0, 0.25);
+  background-color: var(--sec-bg-color);
+  z-index: -1;
+  border-radius: 0 0 0 100px;
+  transition: 0.5s ease-in-out;
+  animation: blueBlockAnimation 0.5s ease-in-out 0.2s;
+}
+
+@keyframes blueBlockAnimation {
+  from {
+    transform: translateX(70%);
+  } to {
+    transform: translateX(0);
+  }
+}
+
+.about-blue-block.animate .info-block {
+  background-color: var(--third-bg-color);
+  box-shadow: var(--neumor-shadow-inset);
+}
+
+.about-blue-block.animate .info-block p {
+  color: #ffffff;
+}
+
+.about-text {
+  text-align: center;
+  max-width: 580px;
+}
+
+.info-block {
+  text-align: left;
+  width: 100%;
+  padding: 30px;
+  border-radius: 30px;
+  background-color: var(--sec-bg-color);
+  transition: 0.7s ease-in-out;
+}
+
+.info-block p {
+  color: transparent;
+  transition: 0.7s ease-in-out;
+  transition-delay: 0.7s;
+}
+
+.about-3d-img {
+  margin-left: 7%;
+  width: 55%;
+}
