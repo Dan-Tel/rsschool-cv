@@ -45,6 +45,52 @@ a {
   text-decoration: none;
 }
 
+
+
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 30%;
+  height: 100vh;
+  background-color: #ffffff;
+  z-index: 100;
+  clip-path: circle(15% at 0 0);
+  transition: 0.7s ease-in-out;
+}
+
+.menu a {
+  color: rgba(0, 0, 0, 0.75);
+}
+
+.menu ul {
+  margin-top: 70px;
+  list-style: none;
+  padding: 30px;
+}
+
+.menu li {
+  font-size: var(--small-text);
+  padding: 15px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.menu li:last-child {
+  border-bottom: none;
+}
+
+.menu.show {
+  clip-path: circle(150% at 0 0);
+}
+
+.menu button {
+  float: left;
+  width: 30px;
+  height: 30px;
+}
+
+
+
 .hello {
   position: relative;
   width: 100%;
@@ -719,4 +765,167 @@ footer h2 {
 footer i {
   font-size: 60px;
   color: #000000;
+}
+
+
+
+@media screen and (max-width: 1220px) {
+  .code img {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 930px) {
+  .hello .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hello img {
+    width: 95%;
+  }
+
+  .hello {
+    height: 80%;
+  }
+
+  .hello-text {
+    margin: 0;
+    margin-top: 20px;
+  }
+
+  :root {
+    --big-text: 40px;
+    --very-big-text: 80px;
+    --medium-text: 30px;
+    --medium-small-text: 20px;
+    --small-text: 14px;
+    --very-small-text: 14px;
+    --default-text: 14px;
+    --contact-text: 11px;
+  }
+
+  .hello-blue-block {
+    opacity: 0;
+  }
+
+  .about-blue-block {
+    position: relative;
+    width: 100%;
+    border-radius: 0;
+  }
+
+  .about-3d-img {
+    display: none;
+  }
+
+  .about-text {
+    max-width: 100%;
+  }
+
+  .about .container {
+    flex-direction: column-reverse;
+  }
+
+  .education-blue-block {
+    position: relative;
+    width: 100%;
+    border-radius: 0;
+  }
+
+  .education h2 {
+    text-align: center;
+  }
+
+  .education-text {
+    position: relative;
+    float: none;
+    max-width: 100%;
+  }
+
+  .code img {
+    position: relative;
+    width: 120%;
+  }
+  
+  .code {
+    overflow-x: hidden;
+  }
+
+  .code .container {
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+  }
+
+
+
+  .video .container {
+    width: 100%;
+  }
+
+  .video-wrapper {
+    width: 100%;
+  }
+  .video-project iframe {
+    width: 100%;
+  }
+
+
+  .contact.animate .contacts {
+    clip-path: circle(105% at 50% 0%);
+  }
+
+  .contacts {
+    width: 50%;
+    left: 40%;
+    top: 40%;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .about-blue-block {
+    padding: 50px 0;
+  }
+
+  .info-block {
+    border-radius: 0;
+  }
+
+  .video-wrapper {
+    padding: 50px 0;
+  }
+
+
+  .education-blue-block {
+    padding: 50px 0;
+  }
+
+  .education-block {
+    border-radius: 0;
+  }
+
+  .contacts {
+    width: 70%;
+    left: 30%;
+    top: 46%;
+  }
+
+  :root {
+    --very-big-text: 60px;
+    --big-text: 35px;
+    --very-small-text: 11px;
+  }
+
+  .menu {
+    width: 100%;
+  }
+
+  footer img{
+    height: 30px;
+  }
+
+  footer h2,
+  footer i {
+    font-size: 30px;
+  }
 }

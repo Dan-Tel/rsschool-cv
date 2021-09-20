@@ -90,3 +90,25 @@ projInfo.forEach(info => {
     })
   })
 })
+
+
+const menuBtn = document.querySelector('.hamburger');
+const menu = document.querySelector('.menu');
+
+menuBtn.addEventListener('click', () => {
+  if(!menu.classList.contains('show')) {
+    menu.classList.add('show');
+  } else {
+    menu.classList.remove('show');
+  }
+
+  menuBtn.classList.toggle('is-active');
+})
+
+const anchorBtns = document.querySelectorAll('.menu a');
+
+anchorBtns.forEach(btn => {
+  btn.addEventListener('click', () => {
+    menu.classList.remove('show');
+  })
+})
