@@ -1,3 +1,23 @@
+:root {
+  --main-bg-color: #ADDCF6;
+  --hero-bg-color: #47B2EE;
+  --sec-bg-color: #85CBF2;
+  --third-bg-color: #6EB9E3;
+  --neumor-border: 1px solid rgba(255, 255, 255, 0.2);
+  --neumor-shadow: -6px -6px 16px rgba(255, 255, 255, 0.5), 6px 6px 16px rgba(0, 0, 0, 0.25);
+  --neumor-shadow-inset: inset -6px -6px 16px rgba(255, 255, 255, 0.5), inset 6px 6px 16px rgba(0, 0, 0, 0.25);
+
+
+  --big-text: 70px;
+  --very-big-text: 96px;
+  --medium-text: 45px;
+  --medium-small-text: 24px;
+  --small-text: 20px;
+  --very-small-text: 18px;
+  --default-text: 14px;
+  --contact-text: 14px;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -6,4 +26,82 @@
 
 html {
   scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  background-color: var(--main-bg-color);
+  overflow-x: hidden;
+  font-size: var(--default-text);
+}
+
+.hello {
+  position: relative;
+  width: 100%;
+  height: 1000px;
+  background-color: var(--hero-bg-color);
+  z-index: -2;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.hello .container {
+  height: 80%;
+}
+
+.hello .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hello-text {
+  display: inline-block;
+  padding: 20px;
+  margin-left: 20px;
+  border-radius: 30px;
+  border: 1px solid transparent;
+  background-color: var(--hero-bg-color);
+  box-shadow: none;
+  animation: helloTextAnimation 0.5s ease-in-out forwards 0.5s;
+}
+
+@keyframes helloTextAnimation {
+  0% {
+    background-color: var(--hero-bg-color);
+    box-shadow: none;
+  } 100% {
+    background-color: var(--hero-bg-color);
+    box-shadow: var(--neumor-shadow);
+    border: var(--neumor-border);
+  }
+}
+.hello-text h1 {
+  font-size: var(--very-big-text);
+  font-weight: 600;
+}
+
+.hello-text p {
+  font-size: var(--big-text);
+}
+
+.hello img {
+  width: 50%;
+}
+
+.hello-blue-block {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 45%;
+  height: 100%;
+  background-color: var(--sec-bg-color);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+  z-index: -1;
+  animation: blueBlockAnimation 0.5s ease-in-out 0.2s;
 }
