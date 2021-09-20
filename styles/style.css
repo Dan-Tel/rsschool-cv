@@ -613,3 +613,78 @@ a {
   top: 60%;
   transform: translateY(-60%);
 }
+
+
+
+.contact {
+  position: relative;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease-in-out;
+}
+
+.contact .container {
+  position: relative;
+  overflow: visible;
+}
+
+.contact h2 {
+  text-align: center;
+}
+
+.contact img {
+  width: 100%;
+  z-index: -1;
+}
+
+.contact.animate {
+  opacity: 1;
+}
+
+.contact.animate .contacts {
+  clip-path: circle(100% at 50% 0%);
+}
+
+.contacts {
+  position: absolute;
+  left: 50%;
+  top: 37%;
+  clip-path: circle(0% at 50% 0%);
+  width: 30%;
+  padding: 30px;
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+  background-color: #ffffff;
+  color: rgba(0, 0, 0, 0.75);
+  border-radius: 30px;
+  box-shadow: inset -6px -6px 10px rgba(0, 0, 0, 0.25), inset 6px 6px 10px rgba(255, 255, 255, 0.5);
+  z-index: 4;
+  transition: 0.5s ease-in-out;
+  transition-delay: 0.5s;
+}
+
+.contacts:before {
+  content: '';
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  height: 0;
+  width: 0;
+  transform: translateX(-50%);
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent; 
+  border-bottom: 20px solid #ffffff;
+}
+
+.contacts li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  font-size: var(--contact-text);
+}
+
+.logo {
+  transform: scale(1.2);
+}
