@@ -258,3 +258,58 @@ a {
 .education img {
   width: 70%;
 }
+
+
+
+.code {
+  width: 100%;
+  padding: 50px;
+  background-color: var(--sec-bg-color);
+}
+
+.code .container {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: visible;
+}
+
+.console {
+  display: inline-block;
+}
+
+.console h2 {
+  text-align: center;
+}
+
+.code-sample {
+  display: inline-block;
+  padding: 50px;
+  border-radius: 30px;
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: var(--very-small-text);
+  line-height: 1.5em;
+  transition: 0.5s ease-in-out;
+}
+
+.code-sample pre {
+  opacity: 0;
+  transition: 0.5s ease-in-out;
+  transition-delay: 0.5s;
+}
+
+.code-sample.animate {
+  box-shadow: var(--neumor-shadow-inset);
+  background-color: var(--third-bg-color);
+}
+
+.code-sample.animate pre {
+  opacity: 1;
+}
+
+.code img {
+  position: absolute;
+  right: 0;
+  width: 65%;
+}

@@ -17,7 +17,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/library/a11y-dark.min.css">
+  <link rel="stylesheet" href="libraries/a11y-dark.min.css">
 
   <title>DanTel CV</title>
 </head>
@@ -75,8 +75,37 @@
           </div>
       </div>
     </section>
+
+    <section class="code" id="code">
+      <div class="container">
+          <div class="console">
+              <h2>Code</h2>
+              <div class="code-sample elem-anim">
+                  <pre>
+                      <code class="js">
+var Calculator = {
+  average: function(/**/) {
+      if(arguments.length === 0) {
+          return 0;
+      }
+      let sum = 0;
+      for(let i = 0; i < arguments.length; i++) {
+          sum += arguments[i];
+      }
+      return sum / arguments.length;
+  }
+};
+                      </code>
+                  </pre>
+              </div>
+          </div>
+          <img src="images/Saly-13.webp" alt="">
+      </div>
+    </section>
   </main>
 
   <script src="index.js"></script>
+  <script src="libraries/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
 </body>
 </html>
