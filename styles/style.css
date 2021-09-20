@@ -36,6 +36,15 @@ body {
   font-size: var(--default-text);
 }
 
+h2 {
+  font-size: var(--big-text);
+}
+
+a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
 .hello {
   position: relative;
   width: 100%;
@@ -172,4 +181,80 @@ body {
 .about-3d-img {
   margin-left: 7%;
   width: 55%;
+}
+
+
+
+.education {
+  position: relative;
+  width: 100%;
+}
+
+.education .container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  height: 100%;
+}
+
+.education-blue-block {
+  position: absolute;
+  top: 25%;
+  left: 0;
+  width: 45%;
+  padding: 50px;
+  border-radius: 0 30px 30px 0;
+  background-color: var(--sec-bg-color);
+  border: var(--neumor-border);
+  box-shadow: var(--neumor-shadow);
+  z-index: -1;
+  transform: translateX(-70%);
+  transition: 0.5s ease-in-out;
+}
+
+.education-blue-block.animate {
+  transform: translateX(0);
+}
+
+.education-text {
+  float: right;
+  max-width: 580px;
+  margin-right: auto;
+}
+
+.education-blue-block.animate .education-block {
+  background-color: var(--third-bg-color);
+  box-shadow: var(--neumor-shadow-inset);
+}
+
+.education-block {
+  width: 100%;
+  padding: 30px;
+  border-radius: 30px;
+  background-color: var(--sec-bg-color);
+  transition: 0.7s ease-in-out;
+  transition-delay: 0.5s;
+}
+
+.education-block li {
+  line-height: 1.75em;
+  color: transparent;
+  transition: 0.7s ease-in-out;
+  transition-delay: 1.2s;
+}
+
+.education-blue-block.animate li {
+  color: #ffffff;
+}
+
+.education-block > ul {
+  margin-left: 20px;
+}
+
+.education-block ul li ul {
+  margin-left: 20px;
+}
+
+.education img {
+  width: 70%;
 }
