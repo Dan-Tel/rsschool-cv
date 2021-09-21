@@ -668,8 +668,14 @@ a {
 
 .project-info h3 {
   position: absolute;
+  text-align: center;
   top: 60%;
   transform: translateY(-60%);
+}
+
+.project-info h3 span {
+  font-size: var(--very-small-text);
+  color: rgba(255, 255, 255, 0.5);
 }
 
 
@@ -788,6 +794,10 @@ footer i {
 }
 
 @media screen and (max-width: 930px) {
+
+  .projects h3 {
+    top: 80%;
+  }
   .hello .container {
     display: flex;
     flex-direction: column;
