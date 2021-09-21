@@ -225,8 +225,20 @@ a {
 }
 
 .about-3d-img {
-  margin-left: 7%;
-  width: 55%;
+  margin: 7%;
+  width: 30%;
+  filter: drop-shadow(6px 6px 6px rgba(0, 0, 0, 0.25)) drop-shadow(-6px -6px 6px rgba(255, 255, 255, 0.5));
+  border: var(--neumor-border);
+  border-radius: 30px;
+}
+
+.about-3d-img-2 {
+  width: 100%;
+  filter: drop-shadow(6px 6px 6px rgba(0, 0, 0, 0.25)) drop-shadow(-6px -6px 6px rgba(255, 255, 255, 0.5));
+  border: var(--neumor-border);
+  border-radius: 30px;
+  display: none;
+  margin-bottom: 30px;
 }
 
 
@@ -817,6 +829,10 @@ footer i {
 
   .about-3d-img {
     display: none;
+  }
+
+  .about-3d-img-2 {
+    display: inline-block;
   }
 
   .about-text {
