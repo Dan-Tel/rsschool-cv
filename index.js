@@ -1,3 +1,5 @@
+alert("Пожалуйста подождите видео загружается на ютуб (")
+
 console.log(`
 Самооценка: 
  
@@ -25,7 +27,6 @@ let options = {
 
 let observer = new IntersectionObserver((entries => {
   entries.forEach(entry => {
-    console.log(entry.intersectionRatio)
     if(entry.intersectionRatio > 0) {
       entry.target.classList.add('animate');
     }
@@ -129,5 +130,6 @@ const anchorBtns = document.querySelectorAll('.menu a');
 anchorBtns.forEach(btn => {
   btn.addEventListener('click', () => {
     menu.classList.remove('show');
+    menuBtn.classList.toggle('is-active');
   })
 })
